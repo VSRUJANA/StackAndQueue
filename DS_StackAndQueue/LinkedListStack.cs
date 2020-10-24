@@ -28,7 +28,7 @@ namespace DS_StackAndQueue
             Node temp = this.top;
             if (temp == null)
             {
-                Console.Write("Stack is Empty");
+                Console.Write("Stack is Empty!");
             }
             else
             {
