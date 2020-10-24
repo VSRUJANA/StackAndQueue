@@ -40,5 +40,16 @@ namespace DS_StackAndQueue
                 temp = temp.next;
             }
         }
+
+        public void Dequeue()
+        {
+            if (this.head == null)
+                Console.WriteLine("Queue is empty");
+            else
+            {
+                Console.WriteLine("Value removed is {0} ", this.head.data);
+                this.head = this.head.next;
+            }
+        }
     }
 }

@@ -16,6 +16,10 @@ namespace DS_StackAndQueue
             Console.WriteLine("");
             linkedListStack.Peek();
             linkedListStack.Pop();
+            Console.Write("Stack : ");
+            linkedListStack.Display();
+            Console.WriteLine("");
+            Console.Write("Emptying Stack : \n");
             linkedListStack.IsEmpty();
             linkedListStack.Display();
             Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
@@ -23,6 +27,10 @@ namespace DS_StackAndQueue
             linkedListQueue.Enqueue(56);
             linkedListQueue.Enqueue(30);
             linkedListQueue.Enqueue(70);
+            Console.Write("Queue : ");
+            linkedListQueue.Display();
+            Console.WriteLine("");
+            linkedListQueue.Dequeue();
             Console.Write("Queue : ");
             linkedListQueue.Display();
         }
