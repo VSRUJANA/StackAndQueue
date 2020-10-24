@@ -13,6 +13,11 @@ namespace DS_StackAndQueue
             linkedListStack.Push(56);
             Console.Write("Stack : ");
             linkedListStack.Display();
+            Console.WriteLine("");
+            linkedListStack.Peek();
+            linkedListStack.Pop();
+            linkedListStack.IsEmpty();
+            linkedListStack.Display();
         }
     }
 }
